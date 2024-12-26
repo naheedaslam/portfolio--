@@ -445,19 +445,19 @@ label:hover {
 }
 
 .skills-content .right .css::before {
-    width: 60%;
-}
-
-.skills-content .right .js::before {
     width: 80%;
 }
 
+.skills-content .right .js::before {
+    width: 95%;
+}
+
 .skills-content .right .php::before {
-    width: 50%;
+    width: 60%;
 }
 
 .skills-content .right .mysql::before {
-    width: 70%;
+    width: 75%;
 }
 
 /* teams section styling */
@@ -833,4 +833,9 @@ footer {
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+
+.pti {
+    line-height: 2;
 }
